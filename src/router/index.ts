@@ -2,8 +2,8 @@
  * @Author: kejie
  * @Date: 2022-04-13 10:23:44
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-13 11:18:28
- * @FilePath: \m-comp\src\router\index.ts
+ * @LastEditTime: 2022-04-13 15:25:49
+ * @FilePath: \vue3-ts-element-plus-learn\src\router\index.ts
  * @Description: file content
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
@@ -18,6 +18,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/',
         component: Home
+      },
+      {
+        path: 'iconChoose',
+        component: () => import ('../views/IconChoose/index.vue')
       }
     ]
   }
