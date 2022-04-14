@@ -1,0 +1,9 @@
+// 组件通用样式配置
+// 通过设置一个特殊的命名空间，可以去覆盖设置element组件的样式
+.icon-choose-comp-dialog-container {
+  .el-scrollbar__view {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+  }
+}

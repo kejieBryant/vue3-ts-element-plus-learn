@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-13 10:23:44
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-13 15:25:49
+ * @LastEditTime: 2022-04-14 14:17:43
  * @FilePath: \vue3-ts-element-plus-learn\src\router\index.ts
  * @Description: file content
  */
@@ -22,6 +22,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'iconChoose',
         component: () => import ('../views/IconChoose/index.vue')
+      },
+      {
+        path: 'areaChoose',
+        component: () => import ('../views/AreaChoose/index.vue')
       }
     ]
   }
