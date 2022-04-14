@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-13 15:20:42
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-14 10:02:32
+ * @LastEditTime: 2022-04-14 18:11:00
  * @FilePath: \vue3-ts-element-plus-learn\src\views\IconChoose\index.vue
  * @Description: file content
 -->
@@ -17,7 +17,6 @@
 </template>
 
 <script lang='ts' setup>
-import ChooseIcon from '../../components/chooseIcon/src/index.vue'
 </script>
 
 <style lang='scss' scoped>

@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-14 14:16:10
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-14 15:06:21
+ * @LastEditTime: 2022-04-14 18:10:55
  * @FilePath: \vue3-ts-element-plus-learn\src\views\AreaChoose\index.vue
  * @Description: file content
 -->
@@ -11,7 +11,6 @@
 </template>
 
 <script lang='ts' setup>
-import ChooseArea from '../../components/chooseArea/src/index.vue'
 
 const change = (val: any) => {
   console.log(val)

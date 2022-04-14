@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-13 14:39:20
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-14 11:45:20
+ * @LastEditTime: 2022-04-14 18:11:59
  * @FilePath: \vue3-ts-element-plus-learn\src\components\chooseIcon\src\index.vue
  * @Description: file content
 -->
@@ -78,7 +78,7 @@ let clickIcon = (item: string) => {
   overflow: auto;
 }
 .icon-container {
-  width: 25%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
