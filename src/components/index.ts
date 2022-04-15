@@ -2,17 +2,19 @@
  * @Author: kejie
  * @Date: 2022-04-14 18:07:39
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-14 18:10:05
+ * @LastEditTime: 2022-04-15 09:59:40
  * @FilePath: \vue3-ts-element-plus-learn\src\components\index.ts
  * @Description: file content
  */
 import { App } from 'vue'
 import ChooseArea from './chooseArea'
 import chooseIcon from './chooseIcon'
+import trend from './trend'
 
 const components = [
   ChooseArea,
-  chooseIcon
+  chooseIcon,
+  trend
 ]
 
 export default {
