@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-13 10:23:44
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-15 10:03:35
+ * @LastEditTime: 2022-04-18 15:40:10
  * @FilePath: \vue3-ts-element-plus-learn\src\router\index.ts
  * @Description: file content
  */
@@ -30,6 +30,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'trend',
         component: () => import('../views/trend/index.vue')
+      },
+      {
+        path: 'menu',
+        component: () => import('../views/menu/index.vue')
       }
     ]
   }
