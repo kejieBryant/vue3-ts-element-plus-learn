@@ -11,12 +11,14 @@ import ChooseArea from './chooseArea'
 import chooseIcon from './chooseIcon'
 import trend from './trend'
 import menu from './menu'
+import progress from './progress'
 
 const components = [
   ChooseArea,
   chooseIcon,
   trend,
-  menu
+  menu,
+  progress
 ]
 
 export default {

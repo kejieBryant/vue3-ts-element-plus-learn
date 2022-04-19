@@ -82,5 +82,7 @@ const attrs = useAttrs();
 }
 svg {
   margin-right: 8px;
+  height: 1em;
+  width: 1em;
 }
 </style>

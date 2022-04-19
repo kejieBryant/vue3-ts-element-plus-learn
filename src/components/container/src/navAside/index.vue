@@ -78,4 +78,9 @@ const data = [
 :deep(.el-menu) {
   height: 100%;
 }
+
+:deep svg {
+  height: 1em;
+  width: 1em;
+}
 </style>

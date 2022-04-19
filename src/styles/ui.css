@@ -1,0 +1,5 @@
+.icon-choose-comp-dialog-container .el-scrollbar__view {
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vh;
+}

@@ -36,4 +36,8 @@ let toggleCollapse = () => {
 .toggle-icon {
   cursor: pointer;
 }
+svg {
+  height: 1em;
+  width: 1em;
+}
 </style>
