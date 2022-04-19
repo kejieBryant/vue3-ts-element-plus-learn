@@ -66,6 +66,7 @@ export default defineComponent({
     }
     return () => {
       return (
+        // 设置类名和父组件传入没有用props接收的属性对象
         <el-menu class={infiniteMenuStyle} {...attrs} default-active={props.defaultActive} router={props.router}>
           {renderMenuItem(props.data)}
         </el-menu>
