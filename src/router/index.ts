@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-13 10:23:44
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-18 15:40:10
+ * @LastEditTime: 2022-04-20 15:11:01
  * @FilePath: \vue3-ts-element-plus-learn\src\router\index.ts
  * @Description: file content
  */
@@ -38,6 +38,14 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'progress',
         component: () => import('../views/progress/index.vue')
+      },
+      {
+        path: 'timeChoose',
+        component: () => import('../views/TimeChoose/index.vue')
+      },
+      {
+        path: 'DateChoose',
+        component: () => import('../views/DateChoose/index.vue')
       }
     ]
   }

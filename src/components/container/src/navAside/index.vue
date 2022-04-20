@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-13 11:38:45
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-19 15:58:10
+ * @LastEditTime: 2022-04-20 15:14:41
  * @FilePath: \vue3-ts-element-plus-learn\src\components\container\src\navAside\index.vue
  * @Description: file content
 -->
@@ -48,8 +48,13 @@ const data = [
   },
   {
     icon: 'Timer',
-    name: '时间选择',
+    name: '时间范围选择',
     index: '/timeChoose'
+  },
+  {
+    icon: 'DataLine',
+    name: '日期范围选择',
+    index: '/dateChoose'
   },
   {
     icon: 'ScaleToOriginal',
@@ -57,7 +62,7 @@ const data = [
     index: '/progress'
   },
   {
-    icon: 'DataLine',
+    icon: 'Calendar',
     name: '日历',
     index: '/calendar'
   },
@@ -79,7 +84,7 @@ const data = [
   height: 100%;
 }
 
-:deep svg {
+:deep(svg) {
   height: 1em;
   width: 1em;
 }

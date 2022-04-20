@@ -2,7 +2,7 @@
  * @Author: kejie
  * @Date: 2022-04-14 18:07:39
  * @LastEditors: kejie
- * @LastEditTime: 2022-04-18 15:41:56
+ * @LastEditTime: 2022-04-20 15:02:11
  * @FilePath: \vue3-ts-element-plus-learn\src\components\index.ts
  * @Description: file content
  */
@@ -12,13 +12,17 @@ import chooseIcon from './chooseIcon'
 import trend from './trend'
 import menu from './menu'
 import progress from './progress'
+import ChooseTime from './chooseTime'
+import ChooseDate from './chooseDate'
 
 const components = [
   ChooseArea,
   chooseIcon,
   trend,
   menu,
-  progress
+  progress,
+  ChooseTime,
+  ChooseDate
 ]
 
 export default {
