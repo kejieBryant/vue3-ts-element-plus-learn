@@ -62,6 +62,11 @@ const data = [
     index: '/progress'
   },
   {
+    icon: 'House',
+    name: '城市选择',
+    index: '/cityChoose'
+  },
+  {
     icon: 'Calendar',
     name: '日历',
     index: '/calendar'
